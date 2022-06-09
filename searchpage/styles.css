@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*:focus {
+    outline: none;
+}
+#left{
+    height: auto;
+    }
+
+.background1{
+    background-color:  #eee;
+    
+    height: 1200px;
+
+}
+
+.background2{
+    background-color:  white;
+    color: black;
+    height: 90vh;
+}
+.txt{
+    display: inline;
+    align-content: center;
+}
+
+.txt input[type=text]{
+    margin-top: 50px;
+  margin-left: 2vw;
+  width: 25%;
+  padding: 20px 15px;
+  box-sizing: border-box; 
+  border: none;
+  border-radius: 50px;
+  
+}
+
+.txt a i{
+    top: 1vh;
+    position: relative;
+    color: #fe6501;
+    font-size: 35px;  
+}
+
+
+.txt a i:hover{
+    color: black;
+    transition: 0.4s;
+}
+.sorting{
+    display: flex;
+}
+
+.choose{
+    position: relative;
+    bottom: 4.5vh;
+    width: 27%;
+}
+ .choose select{
+     border: none;
+     border-radius: 20px;
+ }
+
+ .box1{
+     height: 30vh;
+     width: 20vw;
+     background-color: green;
+     margin: 20px;
+ }
+
+ .sort-button input[type=submit] {
+    padding: 6px 20px 6px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fe6501;
+    color: white;
+    margin-left: 10px;
+}
+
+.sort-button input[type=submit]:hover {
+    background-color: #e45b00;
+    color: white;
+    transition: 0.4s;
+}
+
+
+/* Product Card css */
+
+.custom a {
+    background-color: #fe6501;
+    color: white;
+    border-radius: 5px;
+}
+
+.custom a:hover {
+    background-color: #e45b00;
+    color: white;
+}
+
+.details {
+    color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px #f1f1f1;
+    background-color: #fe6501;
+}
+
+.cart {
+    background-color: white;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px #f1f1f1;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-body {
+    width: fit-content;
+    height: 35%;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.card {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding-bottom: 10px
+}
+
+.star i {
+    font-size: 20px;
+    color: gold;
+    padding-left: 5px;
+}
+
+.star .star2 {
+    color: white;
+}
+
+.star i:hover {
+    color: white;
+}
+
+

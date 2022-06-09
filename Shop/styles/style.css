@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+a:hover{
+    text-decoration: none;
+}
+.main-image{
+   padding-top: 1%;
+   height: 900px;
+   width: auto;
+   background-size: cover;
+
+}
+
+.text1{
+    position: relative;
+    color: white;
+    margin-left: 15%;
+    font-size: 1vw;
+}
+.text2{
+    position: relative;
+    margin-right: 15%;
+    font-size: 22px;
+}
+
+
+
+.color{
+    padding-left: 1%;
+    color: goldenrod;
+}
+
+.outer-box{
+    justify-content: center;
+    height: 50%;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    box-shadow: 5px 5px 25px #574e4d;
+    margin-top: 25%;
+}
+
+.login-form{
+    margin: 15% 25% 0 25%;
+    text-align: center;
+    max-width: auto;
+   
+}
+
+.login-form i{
+    font-size: 24px;
+    position: absolute;
+    color: black;
+    padding: 23px 19px 0 20px;
+}
+
+.login-form input{
+    width: 100%;
+  padding: 19px 19px 19px px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  outline: none;
+    
+}
+
+.login-button input{
+    margin-top: 5%;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.login-button input:hover{
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+
+}
+
+

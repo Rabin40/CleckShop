@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.login{
+  top: 25px;
+  left: 4%;
+}
+
+.login a{
+  color: #fe6501;
+}
+.login a:hover{
+  color: rgb(111, 208, 111);
+}
+.container  .outer-box{
+    padding: 5%;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    margin-top: 320px;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 25px #574e4d;
+  }
+
+  .stack{
+      margin-top: 25px;
+  }
+  
+  .stack input[type=text]{
+     margin-top: 10px;
+     width: 100%;
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     background: #f1f1f1;
+     height: 45px;
+     font-size: 16px;
+     padding-left: 15px;
+     border-bottom-width: 2px;
+     transition: all 0.3s ease;
+  }
+
+  .stack input[type=submit]{
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fe6501;
+    color: white;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .stack input[type=submit]:hover{
+    background-color: rgb(111, 208, 111);
+    color: white;
+    transition: 0.4s;
+  }

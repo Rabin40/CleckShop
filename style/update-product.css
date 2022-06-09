@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-1{
+    width: 100%;
+    max-width: 94%;
+    margin-left: 1%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+
+  .input-box input[type=text]{
+    width: 100%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+  }
+
+  .input-box textarea{
+
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    width: 100%;
+    height: 150px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .description{  
+    margin: 0;
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .input-box label{
+      font-size: 18px;
+  }
+
+  #longDesc{
+      height: 100px;
+  }
+
+  .product-details .input-box input{
+    height: 45px;
+    width: 97%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+  .content form .product-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .product-details .input-box{
+    margin-bottom: 15px;
+    width: 48%;
+  }
+  form .input-box {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .button-add input{
+    height: 75px;
+    width: 100%;
+    margin: 35px 0;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background:#fe6501;
+  }
+
+  .input-box select{
+    height: 45px;
+    width: 50%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+.error{
+    color: red;
+    display: block;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-bottom: 7px;
+  }
+
+  @media(max-width: 584px){
+    .container-1{
+     max-width: 100%;
+   }
+   form .product-details .input-box{
+    margin-bottom: 15px;
+    width: 80%;
+  }
+    form{
+    width: 100%;
+  }
+  .input-box select{
+    height: 30px;
+    padding-left: 10px;
+
+  }
+  
+   @media(max-width: 459px){
+    .container-1 .content {
+      flex-direction: column;
+    }
+  }
+  }

@@ -1,0 +1,162 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+  }
+
+.shop-banner{
+    width: 100%;
+    height: 375px;
+}
+
+.shop-banner img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.overlay{
+    position: relative;
+    background-color: #1f1f1f;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    bottom: 150px;
+}
+
+.logo-overlay{
+    height: auto;
+    width: 55%;
+}
+
+#pointer{
+    pointer-events: none;
+    outline: none;
+}
+
+
+.logo-overlay img{
+    border: 1px solid green;
+    height: 100%;
+    width: 100%;
+    background-color: none;
+}
+
+.text-overlay{
+    height: auto;
+    width: 45%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.star i {
+    position: relative;
+    bottom: 17px;
+    font-size: 20px;
+    color: gold;
+    padding-left: 5px;
+}
+.star2 i {
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: gold;
+    padding-left: 5px;
+}
+
+.shop-title{
+    font-size: 20px;
+    color: white;   
+}
+
+.shop-address{
+    font-size: 14px;
+    color: white;   
+}
+
+.button-profile a{
+    text-decoration: none;
+    color: white;
+    background-color: #fe6501;
+    padding: 10px 20px 10px 20px; /* TRBL  */
+    border-radius: 15px;
+}
+
+.button-profile a:hover{
+    color: white;
+    background-color: #e45b00;
+    transition: 0.4s;
+
+}
+
+.title{
+    padding: 10px 0 10px 0;
+}
+.allProduct{
+    margin-left: 20px;
+}
+
+textarea{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.txtArea textarea{
+    background-color: #f1f1f1;
+    outline: none;
+    border: none;
+    width: 100%;
+ 
+}
+
+.outline{
+    border: 1px solid black;
+}
+
+.component{
+    align-content: center;
+}
+
+.txtarea textarea{
+    border: none;
+    background-color: #f1f1f1;
+    width: 95%;
+    margin-left: 13px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .shop-banner{
+        height: 230px;
+    }
+
+
+    .button-profile{
+        text-align: center;
+    }
+    .overlay{
+        background-color: green;
+        height: 100px;
+        width: 200px;
+        display: flex;
+        bottom: 100px !important;
+    }
+    .shop-title{
+        font-size: 16px;
+        color: white;   
+    }
+    
+    .shop-address{
+        font-size: 12px;
+        color: white;   
+    }
+    .text-overlay{
+        margin-top: 25px;
+    }
+    
+  }
+
+ 

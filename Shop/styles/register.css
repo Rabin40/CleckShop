@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.main-image{
+   padding-top: 1%;
+   background-image: url(../images/background2.jpg);
+   height: 900px;
+   width: auto;
+   background-size: cover;
+
+}
+.outer-box{
+    justify-content: center;
+    height: 60%;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    margin-top: 20%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    box-shadow: 3px 10px #574e4d;
+}
+ 
+.register-part{
+    margin-top: 5%;
+    
+}
+.name{
+    display: flex;
+}
+
+#name{
+    margin-left: 5%;
+}
+
+
+.register-button input{
+    margin-top: 5%;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 20px;
+    padding: 1%;
+    width: 60%;
+    font-size: 18px;
+    border: none;
+}
+
+.register-button input:hover{
+    background-color: green;
+    color: white;
+
+}
+
+.address input{
+        border:none;
+        border-bottom: 3px solid goldenrod;
+        width: 100%;
+        font-size: 18px;
+        padding-left: 1%;
+        padding-top: 5%;
+    
+}
+
+.side{
+    display: flex;
+    
+}
+#side{
+    margin-left: 5%;
+}
+
+.side input{
+    
+        border:none;
+        border-bottom: 3px solid goldenrod;
+        width: 60%;
+        font-size: 18px;
+        padding-left: 1%;
+        padding-top: 5%;
+    
+}
+
+select{
+    border:none;
+    border-bottom: 3px solid goldenrod;
+    width: 40%;
+    font-size: 18px;
+    padding-left: 1%;
+    padding-top: 5%;
+}
+
+.side2{
+    display: inline;
+    
+}
+#gender{
+    margin-left: 80px;
+}
+
+.checkbox{
+    margin-top: 5%;
+}
+
+.text{
+    position: relative;
+    color: white;
+    left: 15%;
+    top: 7%;
+    font-size: 28px;
+    font-family: 'Courgette', cursive;
+    display: flex;
+}
+.member{
+    position: relative;
+    margin-left: 34.8vw;
+    
+}
+
+/*
+margin-left: 58%;
+margin-top: 21%;
+*/

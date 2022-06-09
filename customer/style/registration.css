@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+text-decoration: none;
+}
+
+.create-acc{
+  font-size: 2em;
+}
+
+.login-move{
+  top: 25px;
+  justify-content: space-between;
+}
+.member-acc{
+  right:-4%;
+  margin-top: 15px;
+}
+
+.login-move a{
+color: #fe6501;
+}
+.login-move a:hover{
+color: rgb(111, 208, 111);
+}
+.container-outerbody{
+  width: 100%;
+  max-width: 94%;
+  margin-left: 1%;
+  height: 50px;
+}
+
+.container-insidebody{
+  width: 100%;
+  max-width: 98%;
+  margin-left: 1%;
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+  .stack{
+      margin-top: 25px;
+  }
+  
+  .stack input[type=text]{
+     margin-top: 10px;
+     width: 100%;
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     background: #f1f1f1;
+     height: 45px;
+     font-size: 16px;
+     padding-left: 15px;
+     border-bottom-width: 2px;
+     transition: all 0.3s ease;
+  }
+
+  .stack input[type=password]{
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+ }
+
+  .stack select{
+    margin-top: 10px;
+    height: 45px;
+    width: 50%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .stack input[type=submit]{
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fe6501;
+    color: white;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .stack input[type=submit]:hover{
+    background-color: rgb(111, 208, 111);
+    color: white;
+    transition: 0.4s;
+  }
+  .error{
+    color: red;
+  }
+
+  @media only screen and (max-width: 537px) {
+    .create-acc{
+      font-size: 26px;
+      margin-top: 2%;
+    }
+    .container-insidebody{
+      margin-bottom: 25%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+      .container-insidebody{
+        margin-bottom: 10%;
+      }
+  }
+
+  @media only screen and (max-width: 482px) {
+    .container-insidebody{
+      margin-bottom: 25%;
+    }
+}

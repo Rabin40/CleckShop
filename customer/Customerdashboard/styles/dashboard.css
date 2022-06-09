@@ -1,0 +1,349 @@
+.customer{
+    display: flex;
+    align-items: center;
+}
+
+.txt1{
+    text-align: left;
+}
+
+.line{ 
+    height: 1.5px;
+    width: 32%;
+    background-color: rgb(151, 146, 146);
+}
+
+
+/* Tabs Css */
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+  box-sizing:border-box;
+}
+body {
+  background: white;
+  font-family:"Raleway";
+}
+.customerName{
+  padding-right: 5%;
+  padding-left: 5%;
+
+}
+.icon a{
+  color: inherit;
+}
+
+.tab-header p{
+  padding-top: 10%;
+}
+.tabs {
+  width:100%;
+  height:100vh;
+  background:#f5f5f5;
+  box-shadow:5px 5px 25px 5px #ccc;
+  overflow:hidden;
+}
+.tabs .tab-header {
+  float:left;
+  width:219px;
+  height:100%;
+  background-color: #eee;
+}
+.tabs .tab-header > div {
+  height:0px;
+  font-size:16px;
+  font-weight:600;
+  color: black;
+  cursor:pointer;
+  padding-left:10px;
+  display: flex;  
+  align-items: center;
+}
+.tabs .tab-header > div:hover,
+.tabs .tab-header > div.active {
+  background: #e1e1e1;
+  transition: all 0.4s ease;
+}
+.tabs .tab-header div i {
+  margin-left:10px;
+  margin-right:20px;
+}
+.tabs .tab-content{
+  position:relative;
+  height:100%;
+  overflow:hidden;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.tabs .tab-content > div > i {
+  display:inline-block;
+  width:50px;
+  height:50px;
+  background:#555;
+  color: black;
+  font-size:25px;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+  border-radius:50%;
+}
+.tabs .tab-content > div {
+  position:relative;
+  text-align:center;
+  padding:40px 20px;
+  top:-200%;
+  transition:all 500ms ease-in-out;
+}
+.tabs .tab-content > div.active {
+  top: 5px;
+}
+
+
+.sidebar .nav-links {
+  margin-top: 218%;
+  margin-left: -26%;
+}
+.sidebar .nav-links li{
+  position: relative;
+  list-style: none;
+  height: 55px;
+}
+.sidebar .nav-links li a{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.sidebar .nav-links li a.active {
+  background: #eee;
+  width: 112%;
+}
+.sidebar .nav-links li a:hover {
+  background: #eee;
+  width: 112%;
+}
+.sidebar .nav-links li i{
+  min-width: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.sidebar .nav-links li a .links_name{
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.sidebar .nav-links .log_out{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.container{
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.givenstar{
+  color: #f4bc5c;
+}
+
+
+label{
+  display: flex !important;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+input{
+  width: 50%;
+  padding-top: 2%;
+  border: none;
+  
+} 
+
+input[type=password]{
+  width: 75%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: flex;
+  border: none;
+  background: #e2e2e2;
+}
+
+input[type=password]:focus, input[type=password]:focus {
+
+  outline: none;
+}
+.submit{
+  padding-top: 2%;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.button1, .button2, .button3{
+    border: none;
+    background: #eee;
+    color: black;
+    padding: 25px 45px;
+    text-align: center;
+    display: inline-flex;
+    font-size: 16px;
+    margin:10% 0% 5% 11%;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(202, 202, 202);
+
+  }
+  
+  .button1 a, .button2 a, .button3 a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .button4{
+    border: none;
+    background: #eee;
+    color: black;
+    padding: 25px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin:5% 0% 5% 11%;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(202, 202, 202);
+  
+  }
+
+  .button4 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .button1 a:hover, .button2 a:hover, .button3 a:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+  .button4 a:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+  .error{
+    color: red;
+  }
+
+  
+    .stack{
+        margin-top: 10px;
+    }
+    
+    .stack input[type=text]{
+       margin-top: 5px;
+       width: 100%;
+       outline: none;
+       border: none;
+       border-radius: 5px;
+       background: #e1e1e1;
+       height: 45px;
+       font-size: 14px;
+       padding-left: 15px;
+       border-bottom-width: 2px;
+       transition: all 0.3s ease;
+    }
+  
+    .stack input[type=password]{
+      margin-top: 10px;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      background: #f1f1f1;
+      height: 45px;
+      font-size: 16px;
+      padding-left: 15px;
+      border-bottom-width: 2px;
+      transition: all 0.3s ease;
+   }
+  
+   
+    .stack input[type=submit]:hover{
+      color: white;
+      transition: 0.4s;
+    }
+
+@media only screen and (max-width: 800px) {
+  .links_name{
+      visibility: hidden;
+  }
+  .sidebar .nav-links {
+    margin-top: auto;
+    margin-left: -47%;
+}
+.sidebar .nav-links li a.active {
+  background: none ;
+  width: 41%;
+}
+.sidebar .nav-links li a:hover {
+  background: #eee;
+  width: 47%;
+}
+.tabs .tab-header {
+  float: left;
+  width: 100px;
+  height: 100%;
+  background-color: #eee;
+}
+.sidebar .nav-links li a {
+  transition: none;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  .tabs .tab-header {
+    float: left;
+    width: 55px !important;
+    height: 100%;
+    background-color: #eee;
+  }
+  .sidebar .nav-links {
+    margin-top: auto;
+    margin-left: -115%;
+}
+.sidebar .nav-links li a.active {
+  background: none ;
+  width: 31%;
+}
+.sidebar .nav-links li a:hover {
+  background: #eee;
+  width: 31%;
+}
+.tabs .tab-header {
+  float: left;
+  width: 100px;
+  height: 100%;
+  background-color: #eee;
+}
+.sidebar .nav-links li a {
+  transition: none;
+}
+  .tab-content h2{
+    font-size: 20px;
+    text-align: center;
+  }
+}

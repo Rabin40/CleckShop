@@ -1,0 +1,62 @@
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-outer-box{
+    width: 100%;
+    height: 800px;
+  }
+  
+  .outer-box{
+    justify-content: center;
+    height: 50%;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 25px #574e4d;
+  }
+  
+  .outer-box h1{
+    top: 30%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .outer-box p{
+    position: relative;
+    text-align: center;
+    top: 40%
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .outer-box{
+        width: 90%;
+  
+    }
+  }
+  
+  .back2home{
+    position: relative;
+    text-align: center;
+    top: 60%;
+  }
+  
+  .back2home a{
+    top: 60%;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  
+  .back2home a:hover{
+  background-color: green;
+  transition: 0.4s;
+  color: white;
+  }
